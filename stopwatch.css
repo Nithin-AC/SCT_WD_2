@@ -1,0 +1,39 @@
+*{
+    background-color: blueviolet;
+    font-family:monospace;
+}
+#heading{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+.items{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    color:whitesmoke;
+    margin:2px auto;
+}
+.item{
+    border:2px solid white;
+    width:10rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 40rem;
+    cursor: pointer;   /* Add this */
+  user-select: none;
+}
+.timer{
+       display:flex;
+    align-items: center;
+    justify-content:space-around;
+    color:whitesmoke;
+    margin:5px auto;
+    margin-top: 5rem;
+
+}
+.complete
+{
+    margin-top: 15rem;
+}
